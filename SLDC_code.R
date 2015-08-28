@@ -196,3 +196,5 @@ get.za.stats <- function(chr = Bmori.dat$chr, minRPKM = 1, samp, plot.it = FALSE
   return(out.stats)
 }
 sapply(Bmori.dat[3:6], FUN = function(x) get.za.stats(samp = x))
+
+
